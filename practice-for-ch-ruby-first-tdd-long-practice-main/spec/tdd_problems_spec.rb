@@ -23,4 +23,11 @@ describe 'my_uniq' do
 
 end
 
-describe
+describe 'Array#two_sum' do
+    let(:array_1) { [-1, 0, 2, -2, 1] }
+
+    it "finds all pairs of positions where the elements at those positions sum to zero" do
+        expect(array_1.two_sum).to eq([[0,4], [2,3]])
+    end
+
+end
